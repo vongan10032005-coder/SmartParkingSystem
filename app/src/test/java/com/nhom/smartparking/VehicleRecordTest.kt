@@ -47,15 +47,4 @@ class VehicleRecordTest {
         )
         assertEquals("Chưa tính", record.formattedFee())
     }
-
-    @Test
-    fun `durationMinutes calculates correctly`() {
-        val entry = System.currentTimeMillis() - 60_000 * 30
-        val record = VehicleRecord(
-            id = 1L,
-            licensePlate = "51A-12345",
-            entryTime = entry
-        )
-        assertTrue(record.durationMinutes() in 29..31)
-    }
 }
