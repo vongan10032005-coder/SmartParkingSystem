@@ -74,7 +74,7 @@ php artisan serve --host=0.0.0.0 --port=8000
 
 ## Thành viên nhóm
 
-| Thành viên           | MSSV       | Phụ trách |
-|----------------------|------------|-----------|
-| Võ Thị Ngân          | 3120223126 | Android App |
-| Nguyễn Thục Linh Nhi | 3120223142 | Backend Laravel |
+| Thành viên | MSSV | Phụ trách |
+|---|---|---|
+| Ngan | [3120223126] | Android App, Camera AI, Architecture |
+| Nhi  | [3120223142] | Unit Testing, Documentation |
